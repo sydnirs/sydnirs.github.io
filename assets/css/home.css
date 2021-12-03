@@ -1,0 +1,132 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: white;
+    position:fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#dropdown img {
+    width: 30%;
+    margin-left: 15%;
+}
+
+.logo { 
+    margin-right: 30%;
+    width: 500px;
+}
+
+body {
+    margin: 0;
+}
+
+.row-1 {
+    display: flex;
+    padding-top: 86px;
+}
+
+#box img {
+    width: 512px;
+    height: auto;
+    margin: 0px;
+}
+
+#stack {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+    width: 256px;
+    height: auto;
+}
+
+#stand img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+    display: block;
+}
+
+#dynamic img {
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    display: block;
+}
+
+#board img {
+    width: 512px;
+    height: auto;
+}
+
+#box:hover {
+    opacity: 40%;
+    outline: 3px solid #ffcf00;
+    outline-offset: -3px;
+    z-index: 0;
+}
+
+#dynamic:hover {
+    opacity: 40%;
+    outline: 3px solid #ffcf00;
+    outline-offset: -3px;
+}
+
+#stand:hover {
+    opacity: 40%;
+    outline: 3px solid #ffcf00;
+    outline-offset: -3px;
+}
+
+#board:hover {
+    opacity: 40%;
+    outline: 3px solid #ffcf00;
+    outline-offset: -3px;
+}
+
+.dropbtn {
+    background-color: white;
+    color: white;
+    width: 40%;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 250px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    font-family: usual;
+    font-size: 20px;
+    color: black;
+    padding: 30px 50px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: black;
+      color: #ffcf00;
+    }
+  
+  .show {display:block;}
+
